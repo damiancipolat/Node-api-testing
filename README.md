@@ -1,3 +1,5 @@
+<img src="https://github.com/damiancipolat/nodejs_lambda_stack/blob/master/doc/logo.png?raw=true" width="150px" align="right" />
+
 # Node-api-testing
 This example was created to be used as a sandbox for qa engineers, who want to lean how to test
 api rest using nodejs. We are using this testing api **https://gorest.co.in/**.
