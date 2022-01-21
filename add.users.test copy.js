@@ -109,8 +109,27 @@ describe('GET /users',()=>{
 //Aqui probaremos crear recursos en el endpoint de users.
 describe('POST /users',()=>{
 
+    //Probamos crear un usuario valido solo status code 401
+    it('Crear usuario 1 - sin acceso',()=>{
+
+        //Aqui creamos el bodt mock.
+        const mockBody = {
+            "name":"Pepito modo 122",
+            "gender":"male", 
+            "email":`${new Date().getTime()}.mock@15ce.com`, 
+            "status":"active"
+        };
+
+        return request(`${HOST}`)
+            .post('/users')
+            .send(mockBody)
+            .set('Accept', 'application/json')
+            .expect(401);
+
+    });
+
     //Probamos crear un usuario valido solo status code 201
-    it('Crear usuario 1',()=>{
+    it('Crear usuario 2',()=>{
 
         //Aqui creamos el bodt mock.
         const mockBody = {
@@ -130,7 +149,7 @@ describe('POST /users',()=>{
     });
 
     //Probamos crear un usuario verifico respuesta
-    it('Crear usuario 2',()=>{
+    it('Crear usuario 3',()=>{
 
         //Aqui creamos el bodt mock.
         const mockBody = {
