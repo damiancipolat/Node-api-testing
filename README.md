@@ -1,4 +1,4 @@
-<img src="https://github.com/damiancipolat/Node-api-testing/blob/main/doc/logo.png?raw=true" width="200px" align="right" />
+<img src="https://github.com/damiancipolat/node-bff/blob/master/doc/node.png?raw=true" width="150px" align="right" />
 
 # Node-api-testing
 This example was created to be used as a sandbox for qa engineers, who want to lean how to test
