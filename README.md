@@ -2,7 +2,9 @@
 
 # Node-api-testing
 This example was created to be used as a sandbox for qa engineers, who want to lean how to test
-api rest using nodejs. We are using this testing api **https://gorest.co.in/**.
+api rest using nodejs.
+
+We are using this testing projects as an testing api **https://gorest.co.in/**.
 
 ## Stack
 We use the follow stack to make api testing.
@@ -54,4 +56,5 @@ There are trhee test scenarios:
 
 1) Test the **GET /user** endppint and run some query and analyze reponse.
 2) Test the **POST /user** endpoint to create some mock responses and analyze responses.
-3) Test the **DELETE /user** endpont in this case we mix the creation (POST) and delete the resource and analyze response.
+3) Test the **DELETE /user** endpoint in this case we mix the creation (POST) and delete the resource and analyze response.
+4) Test the **PUT/user** endpoint in this case we mix the creation (POST) and update the resource and analyze response.
